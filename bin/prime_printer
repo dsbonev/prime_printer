@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'prime_printer'
+
+# convert CLI arguments to name-value argument pairs with name being symbol types
+ARGV.map!.with_index { |arg, index| index.even? ? arg.to_sym : arg }
+arg_pairs = Hash[*ARGV]
+
+PrimePrinter.print_output **arg_pairs
