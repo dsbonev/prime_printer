@@ -2,12 +2,7 @@ require 'prime'
 
 class PrimePrinter::TablePrinter
   def initialize(primes: Prime.take(10), cell_width: 4, col_delimiter: '|', row_delimiter: '—', empty_value: ' ' * cell_width)
-    local_variables.each do |var|
-      instance_variable_set "@#{var}", binding.local_variable_get(var)
-      self.class.class_eval do
-        attr_reader var
-      end
-    end
+    PrimePrinter::Utils.keyword_args_to_instance_vars_setter.call binding
   end
 
   def print_output

@@ -1,6 +1,7 @@
 module PrimePrinter
   require "prime_printer/positional_printer"
   require "prime_printer/table_printer"
+  require "prime_printer/utils"
   require "prime_printer/version"
 
   def self.print_output(**args)

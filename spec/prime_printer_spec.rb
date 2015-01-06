@@ -1,6 +1,5 @@
 
 describe PrimePrinter do
-  # ­ Considerre-usability
   # ­ DONOTusealibrarymethodforPrime(writeyourown)
   #  Readme ruby version, test run command, coverage, upload to rubygems, reuse initialize keyword-to-instance mapping, test on other virtual machine
   it 'should print out a multiplication table of the first 10 prime numbers' do
