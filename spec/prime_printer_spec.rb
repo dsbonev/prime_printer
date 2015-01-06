@@ -1,6 +1,6 @@
 
 describe PrimePrinter do
-  #  coverage, upload to rubygems, reuse initialize keyword-to-instance mapping, test on other virtual machine
+  #  upload to rubygems, reuse initialize keyword-to-instance mapping, test on other virtual machine
   it 'should print out a multiplication table of the first 10 prime numbers' do
     table = <<-TABLE
     |   2   3   5   7  11  13  17  19  23  29
