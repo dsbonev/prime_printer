@@ -1,5 +1,6 @@
 module PrimePrinter
   require "prime_printer/positional_printer"
+  require "prime_printer/prime_generator"
   require "prime_printer/table_printer"
   require "prime_printer/utils"
   require "prime_printer/version"

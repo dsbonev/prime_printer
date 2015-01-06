@@ -1,7 +1,5 @@
-require 'prime'
-
 class PrimePrinter::TablePrinter
-  def initialize(primes: Prime.take(10), cell_width: 4, col_delimiter: '|', row_delimiter: '—', empty_value: ' ' * cell_width)
+  def initialize(primes: PrimePrinter::PrimeGenerator.new.next(10), cell_width: 4, col_delimiter: '|', row_delimiter: '—', empty_value: ' ' * cell_width)
     PrimePrinter::Utils.keyword_args_to_instance_vars_setter.call binding
   end
 
