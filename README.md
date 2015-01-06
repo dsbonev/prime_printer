@@ -1,8 +1,12 @@
 # PrimePrinter
 
-TODO: Write a gem description
+Prime library for:
+* printing prime multiplication table
+* printing prime number at given position
 
 ## Installation
+
+Note: requires ruby 2.1.0+
 
 Add this line to your application's Gemfile:
 
@@ -18,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+From command line run:
+```prime_printer```
+```prime_printer position 10```
 
 ## Contributing
 
@@ -27,3 +33,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Tests
+
+```bundle exec rake```

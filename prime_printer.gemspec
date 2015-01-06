@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = PrimePrinter::VERSION
   spec.authors       = ["Dimitar Bonev"]
   spec.email         = ["dsbonev@gmail.com"]
-  spec.summary       = %q{Prints single primes and multiplication table of primes}
+  spec.summary       = %q{Prints prime at given position and multiplication table of primes}
   spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
